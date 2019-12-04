@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/password"
         android:padding="10dp"
-        android:id="@+id/editSiglaEstado"/>
+        android:id="@+id/password"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

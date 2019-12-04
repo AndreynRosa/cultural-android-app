@@ -5,25 +5,26 @@ import java.util.List;
 
 
 import com.example.culturaladriodapp.model.entity.Skill;
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
 
+@DatabaseTable
 public class Artist extends Person {
 
 	private static final long serialVersionUID = 1L;
 
-
+	@DatabaseField
 	private String individualRegistration;
 
-
+	@DatabaseField
 	private String name;
-	
-	
 
+	@DatabaseField
 	private String lastName;
+
 	private List<Group> groups;
-	
 
 	private List<CulturalArtifact> culturalArtifacts;
-	
 
 	private List<Skill> skills;
 
